@@ -2,13 +2,13 @@
 /**
  * File autoloader functionality
  *
- * @package     KnowTheCode\TeamBios\Support
+ * @package     CameraSki\CPT
  * @since       1.0.0
  * @author      hellofromTonya
  * @link        https://knowthecode.io
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\TeamBios\Support;
+namespace CameraSki\CPT\Support;
 
 /**
  * Load all of the plugin's files.
@@ -22,7 +22,8 @@ namespace KnowTheCode\TeamBios\Support;
 function autoload_files( $src_root_dir ) {
 
 	$filenames = array(
-		 'custom/custom-post-type',
+		'custom/post-type',
+		'custom/taxonomy',
 	);
 
 	foreach( $filenames as $filename ) {

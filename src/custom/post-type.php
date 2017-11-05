@@ -2,13 +2,13 @@
 /**
  * Custom Post Type functionality
  *
- * @package     KnowTheCode\TeamBios\Custom
+ * @package     CameraSki\CPT\Custom
  * @since       1.0.0
  * @author      hellofromTonya
  * @link        https://knowthecode.io
  * @license     GNU General Public License 2.0+
  */
-namespace KnowTheCode\TeamBios\Custom;
+namespace CameraSki\CPT\Custom;
 
 add_action( 'init', __NAMESPACE__ . '\register_custom_post_type' );
 /**

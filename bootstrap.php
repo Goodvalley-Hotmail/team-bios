@@ -2,7 +2,7 @@
 /**
  * Team Bios Plugin
  *
- * @package     KnowTheCode\TeamBios
+ * @package     CameraSki\CPT
  * @author      hellofromTonya
  * @license     GPL-2.0+
  *
@@ -18,7 +18,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-namespace KnowTheCode\TeamBios;
+namespace CameraSki\CPT;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'Cheatin&#8217; uh?' );
